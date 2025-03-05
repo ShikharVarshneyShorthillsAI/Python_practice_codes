@@ -1,0 +1,1698 @@
+[
+    {
+        "course_name": "Foundations of Biology",
+        "course_code": "BIO101"
+    },
+    {
+        "course_name": "Cell Biology and Bio-Chemistry",
+        "course_code": "BIO211"
+    },
+    {
+        "course_name": "Introduction to Quantitative Biology",
+        "course_code": "BIO213"
+    },
+    {
+        "course_name": "Genetics and Molecular Biology",
+        "course_code": "BIO214"
+    },
+    {
+        "course_name": "Practical Bioinformatics",
+        "course_code": "BIO221"
+    },
+    {
+        "course_name": "Algorithms in Bioinformatics",
+        "course_code": "BIO321"
+    },
+    {
+        "course_name": "Biophysics",
+        "course_code": "BIO361"
+    },
+    {
+        "course_name": "Stochastic Simulations in Systems Biology and Biophysics",
+        "course_code": "BIO506"
+    },
+    {
+        "course_name": "Cell Biology and Bio-Chemistry",
+        "course_code": "BIO511"
+    },
+    {
+        "course_name": "Foundations of Modern Biology",
+        "course_code": "BIO512"
+    },
+    {
+        "course_name": "Algorithms in Computational Biology",
+        "course_code": "BIO522"
+    },
+    {
+        "course_name": "Chemoinformatics",
+        "course_code": "BIO523"
+    },
+    {
+        "course_name": "Biomedical Image processing",
+        "course_code": "BIO524"
+    },
+    {
+        "course_name": "Introduction to Mathematical Biology",
+        "course_code": "BIO531"
+    },
+    {
+        "course_name": "Network Biology",
+        "course_code": "BIO532"
+    },
+    {
+        "course_name": "Systems and Synthetic Biology",
+        "course_code": "BIO533"
+    },
+    {
+        "course_name": "Introduction to Computational Neuroscience",
+        "course_code": "BIO534"
+    },
+    {
+        "course_name": "Data Sciences for Genomics",
+        "course_code": "BIO541"
+    },
+    {
+        "course_name": "Machine Learning for Biomedical Applications",
+        "course_code": "BIO542"
+    },
+    {
+        "course_name": "Big Data Mining in Healthcare",
+        "course_code": "BIO543"
+    },
+    {
+        "course_name": "Computational Gastronomy",
+        "course_code": "BIO544"
+    },
+    {
+        "course_name": "Biostatistics",
+        "course_code": "BIO545"
+    },
+    {
+        "course_name": "Computing for Medicine",
+        "course_code": "BIO546/CSE585"
+    },
+    {
+        "course_name": "Computer Aided Drug Design",
+        "course_code": "BIO561"
+    },
+    {
+        "course_name": "Communication Skills",
+        "course_code": "COM101"
+    },
+    {
+        "course_name": "Technical Communication",
+        "course_code": "COM301A"
+    },
+    {
+        "course_name": "Introduction to Programming",
+        "course_code": "CSE101"
+    },
+    {
+        "course_name": "Data Structures & Algorithms",
+        "course_code": "CSE102"
+    },
+    {
+        "course_name": "Computer Organization",
+        "course_code": "CSE112"
+    },
+    {
+        "course_name": "Discrete Mathematics",
+        "course_code": "CSE121"
+    },
+    {
+        "course_name": "Introduction to Intelligent Systems",
+        "course_code": "CSE140"
+    },
+    {
+        "course_name": "Advanced Programming",
+        "course_code": "CSE201"
+    },
+    {
+        "course_name": "Fundamentals of Database Management System",
+        "course_code": "CSE202"
+    },
+    {
+        "course_name": "Algorithm Design and Analysis",
+        "course_code": "CSE222"
+    },
+    {
+        "course_name": "Algorithm Design and Analysis",
+        "course_code": "CSE223"
+    },
+    {
+        "course_name": "Operating Systems",
+        "course_code": "CSE231"
+    },
+    {
+        "course_name": "Computer Networks",
+        "course_code": "CSE232"
+    },
+    {
+        "course_name": "Network Administration",
+        "course_code": "CSE233"
+    },
+    {
+        "course_name": "Modern Algorithm Design",
+        "course_code": "CSE319/CSE519"
+    },
+    {
+        "course_name": "Advanced Algorithms",
+        "course_code": "CSE320/CSE520"
+    },
+    {
+        "course_name": "Theory of Computation",
+        "course_code": "CSE322"
+    },
+    {
+        "course_name": "Computer Graphics",
+        "course_code": "CSE333/CSE533"
+    },
+    {
+        "course_name": "Digital Image Processing",
+        "course_code": "CSE340/CSE540/ECE340"
+    },
+    {
+        "course_name": "Statistical Machine Learning",
+        "course_code": "CSE342/CSE542/ECE356/ECE556"
+    },
+    {
+        "course_name": "Computer Vision",
+        "course_code": "CSE344/CSE544/ECE344/ECE544"
+    },
+    {
+        "course_name": "Foundations of Computer Security",
+        "course_code": "CSE345/CSE545"
+    },
+    {
+        "course_name": "Network Security",
+        "course_code": "CSE350/CSE550"
+    },
+    {
+        "course_name": "Networks and System Security II",
+        "course_code": "CSE354/CSE554"
+    },
+    {
+        "course_name": "Complexity Theory",
+        "course_code": "CSE421/CSE621"
+    },
+    {
+        "course_name": "Advanced Biometrics",
+        "course_code": "CSE441/CSE541"
+    },
+    {
+        "course_name": "Designing Human Centered Systems",
+        "course_code": "CSE501"
+    },
+    {
+        "course_name": "Foundations of Parallel Programming",
+        "course_code": "CSE502"
+    },
+    {
+        "course_name": "Program Analysis",
+        "course_code": "CSE503"
+    },
+    {
+        "course_name": "Decision Procedures",
+        "course_code": "CSE504"
+    },
+    {
+        "course_name": "Data Mining",
+        "course_code": "CSE506"
+    },
+    {
+        "course_name": "Database System Implementation",
+        "course_code": "CSE507"
+    },
+    {
+        "course_name": "Information Retrieval",
+        "course_code": "CSE508"
+    },
+    {
+        "course_name": "Computer Architecture",
+        "course_code": "CSE511/ECE511"
+    },
+    {
+        "course_name": "Bayesian Machine Learning",
+        "course_code": "CSE515/ECE551"
+    },
+    {
+        "course_name": "Theories of Deep Learning",
+        "course_code": "CSE516/ECE559"
+    },
+    {
+        "course_name": "Randomized Algorithms",
+        "course_code": "CSE523"
+    },
+    {
+        "course_name": "Theory of Modern cryptography",
+        "course_code": "CSE524"
+    },
+    {
+        "course_name": "Introduction to Graduate Algorithms",
+        "course_code": "CSE525"
+    },
+    {
+        "course_name": "Introduction to Blockchain and Cryptocurrency",
+        "course_code": "CSE528"
+    },
+    {
+        "course_name": "Approximation Algorithms",
+        "course_code": "CSE529"
+    },
+    {
+        "course_name": "Distributed Systems: Concepts & Design",
+        "course_code": "CSE530"
+    },
+    {
+        "course_name": "Multi-Agent Systems",
+        "course_code": "CSE531"
+    },
+    {
+        "course_name": "Mobile Computing",
+        "course_code": "CSE535"
+    },
+    {
+        "course_name": "Wireless Networks",
+        "course_code": "CSE538/ECE538"
+    },
+    {
+        "course_name": "Applied Cryptography",
+        "course_code": "CSE546"
+    },
+    {
+        "course_name": "Security Engineering",
+        "course_code": "CSE552"
+    },
+    {
+        "course_name": "Introduction to Spatial Computing",
+        "course_code": "CSE555"
+    },
+    {
+        "course_name": "Natural Language Processing",
+        "course_code": "CSE556"
+    },
+    {
+        "course_name": "Big Data Analytics",
+        "course_code": "CSE557"
+    },
+    {
+        "course_name": "Data Science",
+        "course_code": "CSE558"
+    },
+    {
+        "course_name": "Mining Large Networks",
+        "course_code": "CSE559"
+    },
+    {
+        "course_name": "GPU Computing",
+        "course_code": "CSE560"
+    },
+    {
+        "course_name": "Probabilistic Graphical Models",
+        "course_code": "CSE561"
+    },
+    {
+        "course_name": "Advanced Computer Vision",
+        "course_code": "CSE562"
+    },
+    {
+        "course_name": "Multimedia Computing and Applications",
+        "course_code": "CSE563"
+    },
+    {
+        "course_name": "Software Defined Networking",
+        "course_code": "CSE565"
+    },
+    {
+        "course_name": "Mobile and Middleware Systems",
+        "course_code": "CSE566/DES5MMS"
+    },
+    {
+        "course_name": "Virtual Reality",
+        "course_code": "CSE570"
+    },
+    {
+        "course_name": "Introduction to Media Computing",
+        "course_code": "CSE571"
+    },
+    {
+        "course_name": "Speech and Audio Processing",
+        "course_code": "CSE572/ECE561"
+    },
+    {
+        "course_name": "Smart Sensing for Internet of Things (IoT)",
+        "course_code": "CSE576"
+    },
+    {
+        "course_name": "Advanced Internet of Things",
+        "course_code": "CSE577"
+    },
+    {
+        "course_name": "Ontology Modeling",
+        "course_code": "CSE580A"
+    },
+    {
+        "course_name": "Systems Analysis, Design and Requirements Engineering",
+        "course_code": "CSE581"
+    },
+    {
+        "course_name": "Software Production Evolution and Maintenance",
+        "course_code": "CSE582"
+    },
+    {
+        "course_name": "Software Development using Open Source",
+        "course_code": "CSE583"
+    },
+    {
+        "course_name": "Program Verification",
+        "course_code": "CSE584"
+    },
+    {
+        "course_name": "Geometry Processing",
+        "course_code": "CSE5GP"
+    },
+    {
+        "course_name": "Object Oriented Programming and Design",
+        "course_code": "CSE600A/ECE600A"
+    },
+    {
+        "course_name": "Compilers",
+        "course_code": "CSE601"
+    },
+    {
+        "course_name": "Knowledge Graphs in Practice",
+        "course_code": "CSE605A"
+    },
+    {
+        "course_name": "Data Warehouse",
+        "course_code": "CSE606"
+    },
+    {
+        "course_name": "Data Lifecycle Management",
+        "course_code": "CSE606A"
+    },
+    {
+        "course_name": "Statistical Computation",
+        "course_code": "CSE609"
+    },
+    {
+        "course_name": "Introduction to Quantum Computing",
+        "course_code": "CSE622"
+    },
+    {
+        "course_name": "Advanced Operating Systems",
+        "course_code": "CSE631"
+    },
+    {
+        "course_name": "Semantic Web",
+        "course_code": "CSE632"
+    },
+    {
+        "course_name": "Robotics",
+        "course_code": "CSE633/ECE670"
+    },
+    {
+        "course_name": "Social Robotics",
+        "course_code": "CSE633A"
+    },
+    {
+        "course_name": "Communication Networks",
+        "course_code": "CSE636/ECE636"
+    },
+    {
+        "course_name": "Collaborative Filtering",
+        "course_code": "CSE640"
+    },
+    {
+        "course_name": "Advanced Machine Learning",
+        "course_code": "CSE642"
+    },
+    {
+        "course_name": "Artificial Intelligence",
+        "course_code": "CSE643"
+    },
+    {
+        "course_name": "Privacy and Security in Online Social Media",
+        "course_code": "CSE645"
+    },
+    {
+        "course_name": "Topics in Adaptive Cybersecurity",
+        "course_code": "CSE651"
+    },
+    {
+        "course_name": "Network Science",
+        "course_code": "CSE655"
+    },
+    {
+        "course_name": "Information Integration and Applications",
+        "course_code": "CSE656"
+    },
+    {
+        "course_name": "Trustworthy AI systems",
+        "course_code": "CSE660"
+    },
+    {
+        "course_name": "Affective Computing",
+        "course_code": "CSE661/DES507"
+    },
+    {
+        "course_name": "Special Topics in Computer Vision",
+        "course_code": "CSE662A"
+    },
+    {
+        "course_name": "Edge AI",
+        "course_code": "CSE663"
+    },
+    {
+        "course_name": "Meta-Learning",
+        "course_code": "CSE663A"
+    },
+    {
+        "course_name": "Multimedia Security",
+        "course_code": "CSE694F/ECE651"
+    },
+    {
+        "course_name": "Topics in Software Engineering: AI in SE",
+        "course_code": "CSE701"
+    },
+    {
+        "course_name": "Advanced Topics in Mobile Computing",
+        "course_code": "CSE734"
+    },
+    {
+        "course_name": "Network Anonymity and Privacy",
+        "course_code": "CSE749"
+    },
+    {
+        "course_name": "Topics in Cryptanalysis",
+        "course_code": "CSE653"
+    },
+    {
+        "course_name": "Design Drawing & Visualization",
+        "course_code": "DES101"
+    },
+    {
+        "course_name": "Introduction to HCI",
+        "course_code": "DES102"
+    },
+    {
+        "course_name": "Prototyping Interactive Systems",
+        "course_code": "DES130"
+    },
+    {
+        "course_name": "Design Processes and Perspectives",
+        "course_code": "DES201"
+    },
+    {
+        "course_name": "Visual Design & Communication",
+        "course_code": "DES202"
+    },
+    {
+        "course_name": "Human Computer Interaction",
+        "course_code": "DES204"
+    },
+    {
+        "course_name": "Design of Interactive Systems",
+        "course_code": "DES205/DES519"
+    },
+    {
+        "course_name": "Introduction to Animation and Graphics",
+        "course_code": "DES302"
+    },
+    {
+        "course_name": "Film Making and Radio Podcasting",
+        "course_code": "DES303"
+    },
+    {
+        "course_name": "Fundamentals of Audio for Engineers",
+        "course_code": "DES501"
+    },
+    {
+        "course_name": "Introduction to 2D Animation",
+        "course_code": "DES502"
+    },
+    {
+        "course_name": "Introduction to 3D Character Animation",
+        "course_code": "DES503"
+    },
+    {
+        "course_name": "Narratives in Visual Communication",
+        "course_code": "DES504"
+    },
+    {
+        "course_name": "Advanced topics in Human Centered Computing (ATHCC)",
+        "course_code": "DES506"
+    },
+    {
+        "course_name": "Meta-Learning",
+        "course_code": "CSE618"
+    },
+    {
+        "course_name": "Design Futures",
+        "course_code": "DES509"
+    },
+    {
+        "course_name": "Game Design and Development",
+        "course_code": "DES512"
+    },
+    {
+        "course_name": "Wearable Applications, Research, Devices, Interactions",
+        "course_code": "DES513"
+    },
+    {
+        "course_name": "Digital Audio & Video Production Workflow",
+        "course_code": "DES514"
+    },
+    {
+        "course_name": "Information Systems in Public Health",
+        "course_code": "DES515"
+    },
+    {
+        "course_name": "Introduction to 3D Production Design for Animation and Games",
+        "course_code": "DES516"
+    },
+    {
+        "course_name": "Introduction to 3D Animation",
+        "course_code": "DES516s"
+    },
+    {
+        "course_name": "Introduction to Motion Graphics",
+        "course_code": "DES518"
+    },
+    {
+        "course_name": "Human Centred AI",
+        "course_code": "DES520"
+    },
+    {
+        "course_name": "Fundamentals of Video for Engineers",
+        "course_code": "DES521"
+    },
+    {
+        "course_name": "Inclusive Design, Universal Design & Accessibility",
+        "course_code": "DES522"
+    },
+    {
+        "course_name": "Digital Circuits",
+        "course_code": "ECE111"
+    },
+    {
+        "course_name": "Basic Electronics",
+        "course_code": "ECE113"
+    },
+    {
+        "course_name": "Integrated Electronics",
+        "course_code": "ECE214"
+    },
+    {
+        "course_name": "Circuit Theory and Devices",
+        "course_code": "ECE215"
+    },
+    {
+        "course_name": "Fields and Waves",
+        "course_code": "ECE230"
+    },
+    {
+        "course_name": "Principles of Communication Systems",
+        "course_code": "ECE240"
+    },
+    {
+        "course_name": "Signals and Systems",
+        "course_code": "ECE250"
+    },
+    {
+        "course_name": "Embedded Logic Design",
+        "course_code": "ECE270"
+    },
+    {
+        "course_name": "Digital VLSI Design",
+        "course_code": "ECE314/ECE514"
+    },
+    {
+        "course_name": "Analog CMOS Circuit Design",
+        "course_code": "ECE315/ECE515"
+    },
+    {
+        "course_name": "Solid State Devices",
+        "course_code": "ECE318/ECE518"
+    },
+    {
+        "course_name": "RF Circuit Design",
+        "course_code": "ECE321/ECE521"
+    },
+    {
+        "course_name": "Digital Communication Systems",
+        "course_code": "ECE340/ECE540"
+    },
+    {
+        "course_name": "Mobile Communications",
+        "course_code": "ECE343"
+    },
+    {
+        "course_name": "Digital Signal Processing",
+        "course_code": "ECE351"
+    },
+    {
+        "course_name": "Machine Learning",
+        "course_code": "ECE363/ECE563/CSE343"
+    },
+    {
+        "course_name": "Mixed Signal Design",
+        "course_code": "ECE412/ECE612"
+    },
+    {
+        "course_name": "Antennas Theory and Design",
+        "course_code": "ECE431/ECE631"
+    },
+    {
+        "course_name": "Radar Systems",
+        "course_code": "ECE432/ECE632"
+    },
+    {
+        "course_name": "Statistical Signal Processing",
+        "course_code": "ECE452/ECE552"
+    },
+    {
+        "course_name": "Probability and Random Process",
+        "course_code": "ECE501"
+    },
+    {
+        "course_name": "Digital Hardware Design",
+        "course_code": "ECE510"
+    },
+    {
+        "course_name": "VLSI Design Flow",
+        "course_code": "ECE513"
+    },
+    {
+        "course_name": "System on Chip Design and Test",
+        "course_code": "ECE516"
+    },
+    {
+        "course_name": "Introduction to Nanoelectronics",
+        "course_code": "ECE517"
+    },
+    {
+        "course_name": "Intelligent Applications Implementation on Heterogeneous Platforms",
+        "course_code": "ECE519"
+    },
+    {
+        "course_name": "Low Voltage Analog Circuit Design",
+        "course_code": "ECE520"
+    },
+    {
+        "course_name": "Integrated Circuit Fabrication",
+        "course_code": "ECE522"
+    },
+    {
+        "course_name": "Quantum Materials and Devices",
+        "course_code": "ECE524"
+    },
+    {
+        "course_name": "Optical Fiber Networks for Industry 4.0",
+        "course_code": "ECE532"
+    },
+    {
+        "course_name": "Satellite Navigation and Sensor Fusion",
+        "course_code": "ECE533"
+    },
+    {
+        "course_name": "Optical Communications Systems",
+        "course_code": "ECE534"
+    },
+    {
+        "course_name": "Optical Networking",
+        "course_code": "ECE536s"
+    },
+    {
+        "course_name": "Wireless Communication Evolution from 3G to 5G",
+        "course_code": "ECE537"
+    },
+    {
+        "course_name": "Wireless System Implementation",
+        "course_code": "ECE539"
+    },
+    {
+        "course_name": "Principals of Digital Communication System",
+        "course_code": "ECE543"
+    },
+    {
+        "course_name": "Photonics: Fundamentals & Applications",
+        "course_code": "ECE545"
+    },
+    {
+        "course_name": "Optical and Wireless Convergence for Beyond 5G Networks and IoT",
+        "course_code": "ECE546"
+    },
+    {
+        "course_name": "Deep Learning",
+        "course_code": "ECE553 / CSE641"
+    },
+    {
+        "course_name": "Compressive Sensing",
+        "course_code": "ECE554"
+    },
+    {
+        "course_name": "Speech Recognition and Understanding",
+        "course_code": "ECE557"
+    },
+    {
+        "course_name": "Transform Learning and Applications",
+        "course_code": "ECE558"
+    },
+    {
+        "course_name": "Modeling and Analysis of Random 5G Networks",
+        "course_code": "ECE55G"
+    },
+    {
+        "course_name": "Data Processing and Management",
+        "course_code": "ECE560"
+    },
+    {
+        "course_name": "Reinforcement Learning",
+        "course_code": "ECE564/CSE564"
+    },
+    {
+        "course_name": "Linear Systems Theory",
+        "course_code": "ECE570"
+    },
+    {
+        "course_name": "Optimal Control Systems",
+        "course_code": "ECE571"
+    },
+    {
+        "course_name": "Advanced Embedded Logic Design",
+        "course_code": "ECE573"
+    },
+    {
+        "course_name": "Machine Learning Techniques for Real-time Control",
+        "course_code": "ECE577"
+    },
+    {
+        "course_name": "Nonlinear and Adaptive Control of Robotic Systems",
+        "course_code": "ECE579"
+    },
+    {
+        "course_name": "Autonomous Driving",
+        "course_code": "ECE581"
+    },
+    {
+        "course_name": "Memory Design and Testing",
+        "course_code": "ECE611"
+    },
+    {
+        "course_name": "Stochastic Estimation and Control",
+        "course_code": "ECE672"
+    },
+    {
+        "course_name": "Macroeconomics",
+        "course_code": "ECO201"
+    },
+    {
+        "course_name": "Econometrics I",
+        "course_code": "ECO221"
+    },
+    {
+        "course_name": "Money and Banking",
+        "course_code": "ECO223"
+    },
+    {
+        "course_name": "Introduction to Economic Analysis",
+        "course_code": "ECO301"
+    },
+    {
+        "course_name": "Microeconomics",
+        "course_code": "ECO301"
+    },
+    {
+        "course_name": "Game Theory",
+        "course_code": "ECO311/ECO511"
+    },
+    {
+        "course_name": "Industrial Organization",
+        "course_code": "ECO312/ECO512"
+    },
+    {
+        "course_name": "Market Design",
+        "course_code": "ECO313"
+    },
+    {
+        "course_name": "Behavioural Economics",
+        "course_code": "ECO314"
+    },
+    {
+        "course_name": "Econometrics II",
+        "course_code": "ECO322/ECO522"
+    },
+    {
+        "course_name": "Spatial Statistics and Spatial Econometrics",
+        "course_code": "ECO324/ECO524"
+    },
+    {
+        "course_name": "Foundations of Finance",
+        "course_code": "ECO331"
+    },
+    {
+        "course_name": "Valuation and Portfolio Management",
+        "course_code": "ECO332"
+    },
+    {
+        "course_name": "Derivatives and Risk Management",
+        "course_code": "ECO333"
+    },
+    {
+        "course_name": "Markov Decision Processes",
+        "course_code": "ECO341/ECO541"
+    },
+    {
+        "course_name": "Decision Theory",
+        "course_code": "ECO503"
+    },
+    {
+        "course_name": "Research Methods",
+        "course_code": "ENG599s"
+    },
+    {
+        "course_name": "Entrepreneurial Communication",
+        "course_code": "ENT411"
+    },
+    {
+        "course_name": "Entrepreneurial Khichadi",
+        "course_code": "ENT412"
+    },
+    {
+        "course_name": "Entrepreneurial Finance",
+        "course_code": "ENT413"
+    },
+    {
+        "course_name": "Relevance of Intellectual Property for Startups",
+        "course_code": "ENT414"
+    },
+    {
+        "course_name": "New Venture Planning",
+        "course_code": "ENT415"
+    },
+    {
+        "course_name": "Creativity, Innovation, and Inventive Problem Solving",
+        "course_code": "ENT416/ENT516"
+    },
+    {
+        "course_name": "Healthcare Innovation and Entrepreneurship Essentials",
+        "course_code": "ENT421/BIO571"
+    },
+    {
+        "course_name": "Environmental Sciences",
+        "course_code": "ESC205"
+    },
+    {
+        "course_name": "Ecology, Evolution, and Environment",
+        "course_code": "ESC207A"
+    },
+    {
+        "course_name": "Effective Supply Chain for E Commerce",
+        "course_code": "MGT310"
+    },
+    {
+        "course_name": "Emerging Issues in IT Management",
+        "course_code": "MGT311"
+    },
+    {
+        "course_name": "Linear Algebra",
+        "course_code": "MTH100"
+    },
+    {
+        "course_name": "Probability and Statistics",
+        "course_code": "MTH201"
+    },
+    {
+        "course_name": "Multivariate Calculus",
+        "course_code": "MTH203"
+    },
+    {
+        "course_name": "Differential Equations",
+        "course_code": "MTH204"
+    },
+    {
+        "course_name": "Discrete Structures",
+        "course_code": "MTH210"
+    },
+    {
+        "course_name": "Number Theory",
+        "course_code": "MTH211"
+    },
+    {
+        "course_name": "Abstract Algebra I",
+        "course_code": "MTH212"
+    },
+    {
+        "course_name": "Real Analysis I",
+        "course_code": "MTH240"
+    },
+    {
+        "course_name": "Numerical Methods",
+        "course_code": "MTH270"
+    },
+    {
+        "course_name": "Introduction to Mathematical Logic",
+        "course_code": "MTH300"
+    },
+    {
+        "course_name": "Algebra",
+        "course_code": "MTH302"
+    },
+    {
+        "course_name": "Graph Theory",
+        "course_code": "MTH310 / MTH520"
+    },
+    {
+        "course_name": "Combinatorics and its Applications",
+        "course_code": "MTH311"
+    },
+    {
+        "course_name": "Real Analysis-II",
+        "course_code": "MTH340"
+    },
+    {
+        "course_name": "Complex Analysis",
+        "course_code": "MTH341 / MTH541"
+    },
+    {
+        "course_name": "Introduction to Dynamical Systems",
+        "course_code": "MTH343/MTH543"
+    },
+    {
+        "course_name": "Stochastic Processes and Applications",
+        "course_code": "MTH371"
+    },
+    {
+        "course_name": "Statistical Inference",
+        "course_code": "MTH372"
+    },
+    {
+        "course_name": "Scientific Computing",
+        "course_code": "MTH373"
+    },
+    {
+        "course_name": "Linear Optimization",
+        "course_code": "MTH374/MTH574"
+    },
+    {
+        "course_name": "Fluid Mechainics",
+        "course_code": "MTH375/MTH575"
+    },
+    {
+        "course_name": "Advanced Linear Algebra",
+        "course_code": "MTH510"
+    },
+    {
+        "course_name": "Algebraic Number Theory",
+        "course_code": "MTH512"
+    },
+    {
+        "course_name": "Abstract Algebra II",
+        "course_code": "MTH513"
+    },
+    {
+        "course_name": "Coding Theory",
+        "course_code": "MTH514"
+    },
+    {
+        "course_name": "Analytic Number Theory",
+        "course_code": "MTH516"
+    },
+    {
+        "course_name": "Combinatorial Optimization",
+        "course_code": "MTH517"
+    },
+    {
+        "course_name": "Social Network Analysis",
+        "course_code": "CSE568"
+    },
+    {
+        "course_name": "Topics in Number Theory",
+        "course_code": "MTH518"
+    },
+    {
+        "course_name": "Concurrent and Learned Data Structures",
+        "course_code": "CSE518"
+    },
+    {
+        "course_name": "Measure and Probability Theory",
+        "course_code": "MTH535"
+    },
+    {
+        "course_name": "Applied Optimization Methods for Machine Learning",
+        "course_code": "ECE666 / CSE517"
+    },
+    {
+        "course_name": "Introduction to Functional Analysis",
+        "course_code": "MTH542"
+    },
+    {
+        "course_name": "Prototyping Interactive Systems",
+        "course_code": "DES206"
+    },
+    {
+        "course_name": "Calculus in R^N",
+        "course_code": "MTH544"
+    },
+    {
+        "course_name": "Finite and Spectral Element Methods",
+        "course_code": "MTH545"
+    },
+    {
+        "course_name": "Ethics in AI",
+        "course_code": "SSH325/SSH525"
+    },
+    {
+        "course_name": "Programmable Networking",
+        "course_code": "CSE567"
+    },
+    {
+        "course_name": "Introduction to PDE",
+        "course_code": "MTH550"
+    },
+    {
+        "course_name": "Estimation Theory for dynamic systems",
+        "course_code": "ECE5et"
+    },
+    {
+        "course_name": "Computational Methods in Oncology Research",
+        "course_code": "BIO5XX"
+    },
+    {
+        "course_name": "Parallel Runtimes for Modern Processors",
+        "course_code": "CSE513"
+    },
+    {
+        "course_name": "Quantum Mechanics",
+        "course_code": "ECE525"
+    },
+    {
+        "course_name": "Point Set Toplogy",
+        "course_code": "MTH562"
+    },
+    {
+        "course_name": "3D Animation filmmaking",
+        "course_code": "DES305"
+    },
+    {
+        "course_name": "Point Set Toplogy",
+        "course_code": "MTH562A"
+    },
+    {
+        "course_name": "Knowledge Production, Concepts and Context",
+        "course_code": "SSH700"
+    },
+    {
+        "course_name": "Introduction to Riemannian Geometry with Some Applications",
+        "course_code": "MTH564A"
+    },
+    {
+        "course_name": "Enhancement Technologies and the Body: Beyond the Human Form",
+        "course_code": "SOC513"
+    },
+    {
+        "course_name": "Contract Theory",
+        "course_code": "ECO502"
+    },
+    {
+        "course_name": "Numerical Solutions Differential Equations",
+        "course_code": "MTH570"
+    },
+    {
+        "course_name": "Tomographic Imaging",
+        "course_code": "ECE565"
+    },
+    {
+        "course_name": "Integral Transforms and their Applications",
+        "course_code": "MTH571"
+    },
+    {
+        "course_name": "Cloud Computing",
+        "course_code": "CSE569"
+    },
+    {
+        "course_name": "Categorical Data Analysis",
+        "course_code": "MTH576"
+    },
+    {
+        "course_name": "Quantum Mechanics",
+        "course_code": "ECE525"
+    },
+    {
+        "course_name": "Convex Optimization",
+        "course_code": "MTH577"
+    },
+    {
+        "course_name": "Introduction to AI in Medical Imaging",
+        "course_code": "ECE667A"
+    },
+    {
+        "course_name": "Computational Metagenomics",
+        "course_code": "BIO549"
+    },
+    {
+        "course_name": "Numerical Partial Differential Equations",
+        "course_code": "MTH598"
+    },
+    {
+        "course_name": "Variational Calculus and their Applications",
+        "course_code": "MTH599"
+    },
+    {
+        "course_name": "Ergonomics/Human factors for Design",
+        "course_code": "DES524"
+    },
+    {
+        "course_name": "Introduction to Psychology",
+        "course_code": "PSY201"
+    },
+    {
+        "course_name": "Positive Psychology",
+        "course_code": "PSY202"
+    },
+    {
+        "course_name": "Enhancement Technologies and the Body: Beyond the Human Form",
+        "course_code": "SOC513"
+    },
+    {
+        "course_name": "Non-Classical Logics",
+        "course_code": "MTH504A"
+    },
+    {
+        "course_name": "Cognitive Psychology",
+        "course_code": "PSY301"
+    },
+    {
+        "course_name": "Lattices in Computer Science",
+        "course_code": "CSE526"
+    },
+    {
+        "course_name": "Social Psychology",
+        "course_code": "PSY302"
+    },
+    {
+        "course_name": "Human Microbiome Data Science",
+        "course_code": "BIO548"
+    },
+    {
+        "course_name": "Attention and Perception",
+        "course_code": "PSY305/PSY505"
+    },
+    {
+        "course_name": "Usable Security and Privacy",
+        "course_code": "CSE347/CSE547/DES525/DES306"
+    },
+    {
+        "course_name": "Learning and Memory",
+        "course_code": "PSY306/506"
+    },
+    {
+        "course_name": "Interactive Systems",
+        "course_code": "CSE573"
+    },
+    {
+        "course_name": "Neuroscience of Decision Making",
+        "course_code": "PSY307/507"
+    },
+    {
+        "course_name": "Information Theory",
+        "course_code": "ECE634"
+    },
+    {
+        "course_name": "Cognition of Motor Movement",
+        "course_code": "PSY308/PSY508"
+    },
+    {
+        "course_name": "Cognition and Information Processing in Design",
+        "course_code": "DES523"
+    },
+    {
+        "course_name": "Introduction to Sociology and Anthropology",
+        "course_code": "SOC101"
+    },
+    {
+        "course_name": "Foundations of Marketing",
+        "course_code": "ENTxxx"
+    },
+    {
+        "course_name": "Contemporary India: Sociological Perspective",
+        "course_code": "SOC202"
+    },
+    {
+        "course_name": "Social Entrepreneurship",
+        "course_code": "ENT202/ ENT404"
+    },
+    {
+        "course_name": "Sociology of New Media",
+        "course_code": "SOC204"
+    },
+    {
+        "course_name": "Anthropology and Social Media",
+        "course_code": "SOC205"
+    },
+    {
+        "course_name": "Japanese Language",
+        "course_code": "SSH326"
+    },
+    {
+        "course_name": "Distributed and Federated Machine Learning",
+        "course_code": "CSE665A"
+    },
+    {
+        "course_name": "Business Anthropology",
+        "course_code": "SOC206"
+    },
+    {
+        "course_name": "Information Technology And Society",
+        "course_code": "SOC207"
+    },
+    {
+        "course_name": "Comprehensive Gender Sensitization",
+        "course_code": "SSH225A"
+    },
+    {
+        "course_name": "Algorithms under Uncertainty",
+        "course_code": "CSE586"
+    },
+    {
+        "course_name": "Organizations An Anthropological Perspective",
+        "course_code": "SOC208"
+    },
+    {
+        "course_name": "Advances in Deep Learning",
+        "course_code": "ECE677/CSE677"
+    },
+    {
+        "course_name": "Consumer Culture and Society",
+        "course_code": "SOC209"
+    },
+    {
+        "course_name": "Quantum Communication and Networks",
+        "course_code": "ECE530"
+    },
+    {
+        "course_name": "Sociological Theory",
+        "course_code": "SOC210"
+    },
+    {
+        "course_name": "Digital Processor Design",
+        "course_code": "ECE523A"
+    },
+    {
+        "course_name": "Science, Technology and Society",
+        "course_code": "SOC211"
+    },
+    {
+        "course_name": "Advanced Digital Communications",
+        "course_code": "ECE347/ECE547"
+    },
+    {
+        "course_name": "Key Concepts in Economic Sociology",
+        "course_code": "SOC212"
+    },
+    {
+        "course_name": "Motion Design and Graphics",
+        "course_code": "DES526/DES307"
+    },
+    {
+        "course_name": "Introduction to Digital Ethnography",
+        "course_code": "SOC213"
+    },
+    {
+        "course_name": "User Experience Design of XR",
+        "course_code": "DES527"
+    },
+    {
+        "course_name": "Causal Inference",
+        "course_code": "ECO323/ECO523"
+    },
+    {
+        "course_name": "Urban Sociology",
+        "course_code": "SOC302"
+    },
+    {
+        "course_name": "Digital Social Research",
+        "course_code": "SOC307"
+    },
+    {
+        "course_name": "Reading Hegel's Phenomenology of Spiri",
+        "course_code": "SSH526/SSH726"
+    },
+    {
+        "course_name": "Foundations of Entrepreneurship",
+        "course_code": "ENT201/ENT405"
+    },
+    {
+        "course_name": "Gender and Media",
+        "course_code": "SOC308/SOC514"
+    },
+    {
+        "course_name": "Advance Ethnographic Research Methods",
+        "course_code": "SOC311/SOC501"
+    },
+    {
+        "course_name": "Concepts and Methods in Social Movement Research",
+        "course_code": "SSH327A/SSH527A"
+    },
+    {
+        "course_name": "The Business of Artificial Intelligence",
+        "course_code": "DES530"
+    },
+    {
+        "course_name": "Sociology of India: Themes and Perspectives",
+        "course_code": "SOC313/SOC503"
+    },
+    {
+        "course_name": "Design for Artificial Intelligence driven Products",
+        "course_code": "DES529"
+    },
+    {
+        "course_name": "Technology and the Future of Work",
+        "course_code": "SOC314/SOC512"
+    },
+    {
+        "course_name": "Nonlinear Dynamics and Chaos (NDC)",
+        "course_code": "MTH359/559"
+    },
+    {
+        "course_name": "Intersectionality Studies",
+        "course_code": "SOC315/SOC511"
+    },
+    {
+        "course_name": "Mechanics of Bodies",
+        "course_code": "MTH376"
+    },
+    {
+        "course_name": "Advanced Sociological Theory",
+        "course_code": "SOC502"
+    },
+    {
+        "course_name": "Topics in Mathematical Logic",
+        "course_code": "MTH506"
+    },
+    {
+        "course_name": "Introduction to Algebraic Geometry with Applications",
+        "course_code": "MTH561"
+    },
+    {
+        "course_name": "Netwoks and Systems Security I",
+        "course_code": "CSE553"
+    },
+    {
+        "course_name": "Machine Learning in Wireless Communication and Networks",
+        "course_code": "ECE564A"
+    },
+    {
+        "course_name": "Object Oriented Programming and Design",
+        "course_code": "CSE600/ECE600/ECE600A"
+    },
+    {
+        "course_name": "Programming for Computational Biology",
+        "course_code": "BIO551A"
+    },
+    {
+        "course_name": "Critical Thinking and Readings in Social Science",
+        "course_code": "SSH101"
+    },
+    {
+        "course_name": "Object Oriented Programming and Design",
+        "course_code": "ECE600A"
+    },
+    {
+        "course_name": "Introduction to Philosophy",
+        "course_code": "SSH121"
+    },
+    {
+        "course_name": "Applied Fields and Waves",
+        "course_code": "ECE331/ECE531"
+    },
+    {
+        "course_name": "Critical Thinking",
+        "course_code": "SSH124"
+    },
+    {
+        "course_name": "Topics on Multivariate Analysis",
+        "course_code": "MTH578A"
+    },
+    {
+        "course_name": "Research Methods in Social Science and Design",
+        "course_code": "SSH201"
+    },
+    {
+        "course_name": "Neural Engineering and Implantable Devices",
+        "course_code": "ECE366/ECE566"
+    },
+    {
+        "course_name": "Theatre Appreciation",
+        "course_code": "SSH211"
+    },
+    {
+        "course_name": "Differential Geometry",
+        "course_code": "MTH563"
+    },
+    {
+        "course_name": "Introduction To The Study Of Literature",
+        "course_code": "SSH214"
+    },
+    {
+        "course_name": "On the making of anthropological objects",
+        "course_code": "SOC504/SOC701"
+    },
+    {
+        "course_name": "Nation and her Narratives",
+        "course_code": "SSH215"
+    },
+    {
+        "course_name": "Reproducing Kernel Hilbert Spaces with Applications (New)",
+        "course_code": "MTH550"
+    },
+    {
+        "course_name": "Introduction to Indian Mythology",
+        "course_code": "SSH216"
+    },
+    {
+        "course_name": "An Introduction to Quantum Information Theory",
+        "course_code": "MTH551"
+    },
+    {
+        "course_name": "Indian Poetry Through the Ages",
+        "course_code": "SSH217"
+    },
+    {
+        "course_name": "Graduate Computer Networks",
+        "course_code": "CSE637"
+    },
+    {
+        "course_name": "Social and Political Philosophy",
+        "course_code": "SSH221"
+    },
+    {
+        "course_name": "Large Language Models",
+        "course_code": "CSE665"
+    },
+    {
+        "course_name": "Theory and Practice of Engineering Ethics",
+        "course_code": "SSH222"
+    },
+    {
+        "course_name": "Design Thinking and Innovation",
+        "course_code": "ENT302"
+    },
+    {
+        "course_name": "Perspectives of Knowledge",
+        "course_code": "SSH223"
+    },
+    {
+        "course_name": "3D Creation for Extended Reality (XR)",
+        "course_code": "DES532A"
+    },
+    {
+        "course_name": "Computer, Information Ethics and Society",
+        "course_code": "SSH224"
+    },
+    {
+        "course_name": "Physics of Semiconductor Devices",
+        "course_code": "ECE210/ECE310"
+    },
+    {
+        "course_name": "Interaction Design Perspectives Methods",
+        "course_code": "DES533"
+    },
+    {
+        "course_name": "Tangible User Interfaces",
+        "course_code": "DES531"
+    },
+    {
+        "course_name": "Democracy in India: Principles and Practices",
+        "course_code": "SSH261"
+    },
+    {
+        "course_name": "Electronic System Design",
+        "course_code": "ECE211"
+    },
+    {
+        "course_name": "Theories of Ethics",
+        "course_code": "SSH300"
+    },
+    {
+        "course_name": "Urban Space and Gender",
+        "course_code": "SOC719A"
+    },
+    {
+        "course_name": "Advanced Writing",
+        "course_code": "SSH311"
+    },
+    {
+        "course_name": "Systems for AI",
+        "course_code": "CSE634A"
+    },
+    {
+        "course_name": "Applied Ethics",
+        "course_code": "SSH321"
+    },
+    {
+        "course_name": "Parameterized Algorithms",
+        "course_code": "CSE619"
+    },
+    {
+        "course_name": "New Media and Politics",
+        "course_code": "SSH323"
+    },
+    {
+        "course_name": "Advanced Digital Design and Verification",
+        "course_code": "ECE527"
+    },
+    {
+        "course_name": "Philosophy of Mind",
+        "course_code": "SSH324"
+    },
+    {
+        "course_name": "VLSI Design Flow",
+        "course_code": "ECE513/ECE313"
+    },
+    {
+        "course_name": "Experiential Learning",
+        "course_code": "ENT303A"
+    },
+    {
+        "course_name": "Political Anthropology: State, Subject, Power",
+        "course_code": "SOC216"
+    },
+    {
+        "course_name": "State and Subject: Advanced topics in political anthropology",
+        "course_code": "SOC702/505"
+    },
+    {
+        "course_name": "Governing AI: History, Theory, Policy (New)",
+        "course_code": "SSH341/SSH541"
+    },
+    {
+        "course_name": "Comparative Politics in Digital Era",
+        "course_code": "SSH361"
+    },
+    {
+        "course_name": "Intelligent Product Design Workshop",
+        "course_code": "ECE323/EVE323/ECE526"
+    },
+    {
+        "course_name": "Urban Space and Political Power",
+        "course_code": "SSH362/SSH562"
+    },
+    {
+        "course_name": "Philosophy of Technology",
+        "course_code": "SSH3PT"
+    },
+    {
+        "course_name": "Data and Society",
+        "course_code": "SSH711"
+    },
+    {
+        "course_name": "Extended Reality in Industry",
+        "course_code": "DES534"
+    },
+    {
+        "course_name": "Politics in Digital Era",
+        "course_code": "SSH240"
+    },
+    {
+        "course_name": "Algorithmic techniques for Robot Planning (new)",
+        "course_code": "CSE634"
+    },
+    {
+        "course_name": "Logic and Artificial Intelligence",
+        "course_code": "MTH501"
+    },
+    {
+        "course_name": "Probabilistic Methods in Combinatorics",
+        "course_code": "MTH523/CSE623"
+    },
+    {
+        "course_name": "Introduction to Computational Complexity",
+        "course_code": "CSE624A"
+    },
+    {
+        "course_name": "Advanced Solid-state Devices (ASD)",
+        "course_code": "ECE613"
+    },
+    {
+        "course_name": "Ubiquitous Computing",
+        "course_code": "DES535"
+    },
+    {
+        "course_name": "Advanced Topics in Partial Differential Equations",
+        "course_code": "MTH548"
+    },
+    {
+        "course_name": "Several Complex Variables",
+        "course_code": "MTH547"
+    },
+    {
+        "course_name": "Digital Technologies and Social Entrepreneurship",
+        "course_code": "ENT304"
+    },
+    {
+        "course_name": "Social Innovation, Corporate Social Responsibility and Sustainable Development",
+        "course_code": "ENT305"
+    },
+    {
+        "course_name": "Decision Making for Multi-robot Systems",
+        "course_code": "CSE667"
+    },
+    {
+        "course_name": "Explainable AI",
+        "course_code": "CSE615"
+    },
+    {
+        "course_name": "Image, Screen, Interface",
+        "course_code": "SOC309/509"
+    },
+    {
+        "course_name": "Advanced Readings in Moral and Political Philosophy",
+        "course_code": "SSH721"
+    },
+    {
+        "course_name": "Graduate Systems (GS)",
+        "course_code": "CSE638"
+    },
+    {
+        "course_name": "Advanced Computer Networks",
+        "course_code": "CSE666"
+    },
+    {
+        "course_name": "Percolation Theory",
+        "course_code": "MTH579"
+    },
+    {
+        "course_name": "Foundations of Biology-I",
+        "course_code": "BIO102"
+    },
+    {
+        "course_name": "Design Research",
+        "course_code": "DES536"
+    },
+    {
+        "course_name": "Introduction to Bioinspired Algorithms and Optimal Control",
+        "course_code": "BIO525"
+    }
+]
