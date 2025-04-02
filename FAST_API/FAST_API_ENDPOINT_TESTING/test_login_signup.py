@@ -59,7 +59,91 @@ test_cases = [
         "data": {"name": "' OR 1=1 --", "password": "password"},
         "expected_output": {"result": "Username not found"},
     },
-]
+    {
+    "test_case": "Signup - Missing Username",
+    "endpoint": "/signup",
+    "method": "post",
+    "data": {"password": "Test@123"},
+    "expected_output": {"result": "Username cannot be empty"},
+    },
+    {
+        "test_case": "Signup - Weak Password",
+        "endpoint": "/signup",
+        "method": "post",
+        "data": {"name": "user2", "password": "123"},
+        "expected_output": {"result": "Password is too weak"},
+    },
+    {
+        "test_case": "Signup - Special Characters in Username",
+        "endpoint": "/signup",
+        "method": "post",
+        "data": {"name": "user@123", "password": "StrongPass@123"},
+        "expected_output": {"result": "Invalid username format"},
+    },
+    {
+        "test_case": "Signup - Long Username",
+        "endpoint": "/signup",
+        "method": "post",
+        "data": {"name": "a" * 51, "password": "StrongPass@123"},
+        "expected_output": {"result": "Username exceeds character limit"},
+    },
+    {
+        "test_case": "Login - Empty Username",
+        "endpoint": "/login",
+        "method": "get",
+        "data": {"name": "", "password": "Test@123"},
+        "expected_output": {"result": "Username cannot be empty"},
+    },
+    {
+        "test_case": "Login - Empty Password",
+        "endpoint": "/login",
+        "method": "get",
+        "data": {"name": "testuser1", "password": ""},
+        "expected_output": {"result": "Password cannot be empty"},
+    },
+    {
+        "test_case": "Login - Case Sensitivity Check",
+        "endpoint": "/login",
+        "method": "get",
+        "data": {"name": "TestUser1", "password": "Test@123"},
+        "expected_output": {"result": "Username not found"},
+    },
+    {
+        "test_case": "Login - Excessively Long Password",
+        "endpoint": "/login",
+        "method": "get",
+        "data": {"name": "testuser1", "password": "A" * 101},
+        "expected_output": {"result": "Password exceeds character limit"},
+    },
+    {
+        "test_case": "Login - Username with Leading/Trailing Spaces",
+        "endpoint": "/login",
+        "method": "get",
+        "data": {"name": " testuser1 ", "password": "Test@123"},
+        "expected_output": {"result": "Username not found"},
+    },
+    {
+        "test_case": "Signup - SQL Injection in Username",
+        "endpoint": "/signup",
+        "method": "post",
+        "data": {"name": "'; DROP TABLE users;--", "password": "password123"},
+        "expected_output": {"result": "Invalid username format"},
+    },
+    {
+        "test_case": "Signup - HTML Injection in Username",
+        "endpoint": "/signup",
+        "method": "post",
+        "data": {"name": "<script>alert('Hacked')</script>", "password": "password123"},
+        "expected_output": {"result": "Invalid username format"},
+    },
+    {
+        "test_case": "Signup - Duplicate Username with Different Case",
+        "endpoint": "/signup",
+        "method": "post",
+        "data": {"name": "TestUser1", "password": "Test@123"},
+        "expected_output": {"result": "Username is already taken"},
+    }
+    ]
 
 
 def send_request(method, endpoint, data):

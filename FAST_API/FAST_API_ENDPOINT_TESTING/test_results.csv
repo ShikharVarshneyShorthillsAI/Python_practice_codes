@@ -1,0 +1,18 @@
+Test Case,Input Data,Expected Output,Actual Output,Status
+Signup - New User,"{'name': 'testuser1', 'password': 'Test@123'}",{'result': 'Signed up successfully'},{'result': 'Username is already taken'},Fail
+Signup - Existing User,"{'name': 'testuser1', 'password': 'Test@123'}",{'result': 'Username is already taken'},{'result': 'Username is already taken'},Pass
+Login - Correct Credentials,"{'name': 'testuser1', 'password': 'Test@123'}",{'result': 'Login Successful'},{'result': 'Login Successful'},Pass
+Login - Wrong Password,"{'name': 'testuser1', 'password': 'WrongPassword'}",{'result': 'Password is incorrect'},{'result': 'Password is incorrect'},Pass
+Login - Non-Existent User,"{'name': 'unknown_user', 'password': 'Random123'}",{'result': 'Username not found'},{'result': 'Username not found'},Pass
+Signup - Missing Password,"{'name': 'user1', 'email': 'user1@example.com'}",{'result': 'Password cannot be empty'},"{'detail': [{'type': 'missing', 'loc': ['body', 'password'], 'msg': 'Field required', 'input': {'name': 'user1', 'email': 'user1@example.com'}}]}",Fail
+Login - SQL Injection Attempt,"{'name': ""' OR 1=1 --"", 'password': 'password'}",{'result': 'Username not found'},{'result': 'Username not found'},Pass
+Signup - Missing Username,{'password': 'Test@123'},{'result': 'Username cannot be empty'},"{'detail': [{'type': 'missing', 'loc': ['body', 'name'], 'msg': 'Field required', 'input': {'password': 'Test@123'}}]}",Fail
+Signup - Weak Password,"{'name': 'user2', 'password': '123'}",{'result': 'Password is too weak'},{'result': 'Signed up successfully'},Fail
+Signup - Special Characters in Username,"{'name': 'user@123', 'password': 'StrongPass@123'}",{'result': 'Invalid username format'},{'result': 'Signed up successfully'},Fail
+Login - Empty Username,"{'name': '', 'password': 'Test@123'}",{'result': 'Username cannot be empty'},{'result': 'Username cannot be empty'},Pass
+Login - Empty Password,"{'name': 'testuser1', 'password': ''}",{'result': 'Password cannot be empty'},{'result': 'Password cannot be empty'},Pass
+Login - Case Sensitivity Check,"{'name': 'TestUser1', 'password': 'Test@123'}",{'result': 'Username not found'},{'result': 'Login Successful'},Fail
+Login - Excessively Long Password,"{'name': 'testuser1', 'password': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'}",{'result': 'Password exceeds character limit'},{'result': 'Password is incorrect'},Fail
+Login - Username with Leading/Trailing Spaces,"{'name': ' testuser1 ', 'password': 'Test@123'}",{'result': 'Username not found'},{'result': 'Username not found'},Pass
+Signup - SQL Injection in Username,"{'name': ""'; DROP TABLE users;--"", 'password': 'password123'}",{'result': 'Invalid username format'},{'result': 'Signed up successfully'},Fail
+Signup - Duplicate Username with Different Case,"{'name': 'TestUser1', 'password': 'Test@123'}",{'result': 'Username is already taken'},{'result': 'Username is already taken'},Pass
