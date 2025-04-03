@@ -67,7 +67,11 @@ class NiftyScraper:
 class NiftyAnalyzer:
     def __init__(self, filename):
         self.filename = filename
-        self.df = pd.read_csv(self.filename)
+        self.df = pd.read_csv("/home/shtlp_0042/Desktop/TICKETS/nifty50_data.csv",delimiter=",",encoding="utf-8", header=0, skiprows=1)
+        self.df = self.df.loc[:, ~self.df.columns.str.contains('^Unnamed')]
+        column_names = pd.read_csv("/home/shtlp_0042/Desktop/TICKETS/nifty50_data.csv").columns
+        self.df.columns = column_names
+
 
     def get_top_gainers_losers(self):
         """Get top 5 gainers and top 5 losers based on '%CHNG'."""
@@ -77,15 +81,26 @@ class NiftyAnalyzer:
 
     def identify_below_52W_high(self):
         """Identify 5 stocks that are currently 30% below their 52-week high."""
+        # self.df["LTP"] = pd.to_numeric(self.df["LTP"])
+        # self.df["52W H"] = pd.to_numeric(self.df["52W H"])
+        self.df["LTP"] = self.df["LTP"].str.replace(",", "", regex=True).astype(float)
+        self.df["52W H"] = self.df["52W H"].str.replace(",","",regex=True).astype(float)
         self.df["below_52W_H"] = ((self.df["52W H"] - self.df["LTP"]) / self.df["52W H"]) * 100
         below_30_percent = self.df[self.df["below_52W_H"] >= 30].nlargest(5, "below_52W_H")
         return below_30_percent
 
     def identify_above_52W_low(self):
         """Identify 5 stocks that are currently 20% above their 52-week low."""
+        self.df["52W L"] = self.df["52W L"].str.replace(",","",regex=True).astype(float)
         self.df["above_52W_L"] = ((self.df["LTP"] - self.df["52W L"]) / self.df["52W L"]) * 100
         above_20_percent = self.df[self.df["above_52W_L"] >= 20].nlargest(5, "above_52W_L")
         return above_20_percent
+    
+    def top_5_highest_returns(self):
+    # Get top 5 stocks based on 30-day percentage change
+        top_5 = self.df.nlargest(5, "30 D\n%CHNG")
+
+        return top_5[["SYMBOL", "LTP", "30 D\n%CHNG"]] 
 
     def display_results(self):
         """Display the results."""
@@ -97,14 +112,15 @@ class NiftyAnalyzer:
         print(top_losers[["SYMBOL", "%CHNG"]])
 
         print("\n5 Stocks 30% Below Their 52-Week High:")
-        print(self.identify_below_52W_high()[["SYMBOL", "LTP", "52W H", "below_52W_H"]])
+        print(self.identify_below_52W_high()[["SYMBOL", "LTP", "52W H"]])
 
         print("\n5 Stocks 20% Above Their 52-Week Low:")
-        print(self.identify_above_52W_low()[["SYMBOL", "LTP", "52W L", "above_52W_L"]])
+        print(self.identify_above_52W_low()[["SYMBOL", "LTP", "52W L"]])
 
-    
+        print("\n 5 stocks that gave maximum returns in last 30 days")
+        print(self.top_5_highest_returns()[["SYMBOL", "LTP", "30 D\n%CHNG"]])
 
-    def plot_gainers_losers(top_gainers, top_losers):
+    def plot_gainers_losers(self,top_gainers, top_losers):
         """Plot a bar chart for the top 5 gainers and losers based on %CHNG."""
         
         fig, ax = plt.subplots(figsize=(10, 5))
